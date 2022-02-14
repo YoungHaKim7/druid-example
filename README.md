@@ -9,6 +9,6 @@
 
 ## Screen Shot
 
-<a href= “https://linebender.org/druid/get_started.html”><img align=“left” alt=“result” width=“930px” src=“https://user-images.githubusercontent.com/67513038/153873685-f6ff5472-61a1-4471-9408-6dc560223424.jpg”></a>
+![druid01]<a href= “https://linebender.org/druid/get_started.html”><img align=“left” alt=“druid01” width=“400px” src=“https://user-images.githubusercontent.com/67513038/153875835-4b78dd6c-de7b-481e-90ac-af37ff8778ea.jpg”></a>
 
-<a href= “https://crates.io/crates/druid”><img align=“left” alt=“crate” width=“930px” src=“https://user-images.githubusercontent.com/67513038/153873755-ee2df2bc-d468-4120-8557-d236763088d7.jpg”></a>
+![druid02]<a href= “https://crates.io/crates/druid”><img align=“left” alt="druid02" width=“400px” src=“https://user-images.githubusercontent.com/67513038/153875611-21f97533-2011-448a-9da7-2845131ee2a6.jpg”></a>
