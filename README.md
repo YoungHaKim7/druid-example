@@ -7,6 +7,8 @@
 
 [Toturial eBook](https://linebender.org/druid/get_started.html)
 
+[druid0.7.0_Crates](https://crates.io/crates/druid)
+
 ## Screen Shot
 
 ![druid01]<a href= “https://linebender.org/druid/get_started.html”><img align=“left” alt=“druid01” width=“400px” src=“https://user-images.githubusercontent.com/67513038/153875835-4b78dd6c-de7b-481e-90ac-af37ff8778ea.jpg”></a>
