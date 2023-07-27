@@ -5,7 +5,7 @@
 
 ## druid \_get)\_started_toturial
 
-[Toturial eBook](https://linebender.org/druid/get_started.html)
+[Toturial eBook](https://linebender.org/druid/01_overview.html)
 
 [druid0.7.0_Crates](https://crates.io/crates/druid)
 
