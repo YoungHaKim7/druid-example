@@ -29,13 +29,13 @@ impl<W: Widget<TimeState>> Controller<TimeState, W> for TimeController {
     ) {
         match event {
             Event::WindowConnected => {
-                let timer_id = ctx.request_timer(Duration::from_secs(1));
+                let _timer_id = ctx.request_timer(Duration::from_secs(1));
                 ctx.set_handled();
             }
-            Event::Timer(timer_id) => {
+            Event::Timer(_timer_id) => {
                 data.time = data.get_time();
                 ctx.request_paint();
-                let timer_id = ctx.request_timer(Duration::from_secs(1));
+                let _timer_id = ctx.request_timer(Duration::from_secs(1));
                 ctx.set_handled();
             }
             _ => {}
