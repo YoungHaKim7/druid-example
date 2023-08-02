@@ -46,7 +46,7 @@ impl<W: Widget<TimeState>> Controller<TimeState, W> for TimeController {
 
 fn build_root_widget() -> impl Widget<TimeState> {
     let display = Label::new(|data: &String, _env: &_| data.clone())
-        .with_text_size(32.0)
+        .with_text_size(24.0)
         .lens(TimeState::time)
         .padding(5.0);
 
@@ -55,7 +55,7 @@ fn build_root_widget() -> impl Widget<TimeState> {
     Flex::column()
         .with_flex_spacer(0.2)
         .with_child(display)
-        .cross_axis_alignment(CrossAxisAlignment::End)
+        .cross_axis_alignment(CrossAxisAlignment::Start)
 }
 
 impl TimeState {
@@ -69,7 +69,8 @@ pub fn main() {
     // describe the main window
     let main_window = WindowDesc::new(build_root_widget())
         .title("NewYork_Time: EST!")
-        .window_size((400.0, 400.0));
+        .window_size((249.0, 35.0))
+        .resizable(false);
 
     // create the initial app state
     let initial_state: TimeState = TimeState {
