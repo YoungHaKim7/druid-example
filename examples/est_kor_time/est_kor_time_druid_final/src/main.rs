@@ -1,7 +1,7 @@
 #![windows_subsystem = "windows"]
 
 use druid::widget::prelude::*;
-use druid::widget::{Flex, Label, TextBox};
+use druid::widget::{Flex, Label};
 use druid::{AppLauncher, Data, Lens, UnitPoint, WidgetExt, WindowDesc};
 
 use chrono::Utc;
