@@ -44,7 +44,7 @@ impl CalcState {
 
     fn op(&mut self, op: char) {
         match op {
-            | '+' | '-' | '÷' | '*'| '=' => {
+            '+' | '-' | '÷' | '*' | '=' => {
                 self.compute();
                 self.operand = self.value.parse().unwrap_or(0.0);
                 self.operator = op;
@@ -64,7 +64,7 @@ impl CalcState {
             }
             '.' => {
                 if self.in_num {
-                    self.value = "0".to_string();
+                    self.value.push('.');
                     self.in_num = true;
                 }
                 if self.value.find('.').is_none() {
