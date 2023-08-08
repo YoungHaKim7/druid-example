@@ -2,6 +2,9 @@
 
 https://github.com/linebender/druid/tree/master/druid/examples
 
+- Druid Tutorial: Making a Todo app in Rust GUI(해봐야지 ㅋ)
+  - https://youtu.be/YEa2eq4HEU8
+
 > > rust GUI crates
 > > Let's go!!
 
