@@ -25,3 +25,7 @@ https://crates.io/crates/druid
 # Druid Github
 
 https://github.com/linebender/druid
+
+# 문제 생긴거 고민들 물어 보기 좋은 곳 Druid Community
+
+https://xi.zulipchat.com/
