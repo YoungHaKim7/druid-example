@@ -34,4 +34,8 @@ https://xi.zulipchat.com/
 
 https://github.com/linebender/druid/issues/1360
 
-#
+# 내가 찾는거 힌트
+
+- 키 눌렀을때 액션 반응하기
+
+https://github.com/luleyleo/Zeitig/blob/master/src/ui/tracker/mod.rs#L232
