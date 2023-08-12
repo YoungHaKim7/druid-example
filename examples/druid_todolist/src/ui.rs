@@ -1,6 +1,7 @@
 use druid::{
     widget::{Button, Checkbox, Controller, Flex, Label, List, Padding, TextBox, ZStack},
-    Code, Env, Event, EventCtx, Menu, MenuItem, Point, UnitPoint, Widget, WidgetExt,
+    Code, Env, Event, EventCtx, FontDescriptor, FontFamily, FontWeight, Menu, MenuItem, Point,
+    UnitPoint, Widget, WidgetExt,
 };
 
 use crate::{
@@ -35,9 +36,11 @@ pub fn ui_builder() -> impl Widget<TodoState> {
         Flex::row()
             .with_child(Label::new(|data: &TodoItem, _: &Env| {
                 if data.checked {
-                    let strikethrough = "\u{001b}[9m";
-                    let no_strikethrough = "\u{001b}[0m";
-                    return format!("{}{}\n", strikethrough, data.text);
+                    let strikethrough = "\u{2705}";
+                    // let title_font = FontDescriptor::new(FontFamily::SYSTEM_UI)
+                    //     .with_weight(FontWeight::BOLD)
+                    //     .with_size(32.0);
+                    return format!("{:?}{}\n", strikethrough, data.text);
                 } else {
                     return data.text.clone();
                 }
