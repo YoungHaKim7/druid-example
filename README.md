@@ -29,3 +29,9 @@ https://github.com/linebender/druid
 # 문제 생긴거 고민들 물어 보기 좋은 곳 Druid Community
 
 https://xi.zulipchat.com/
+
+# 다른 사람이 만든 Druid 작품들
+
+https://github.com/linebender/druid/issues/1360
+
+#
