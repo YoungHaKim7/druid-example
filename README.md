@@ -32,6 +32,8 @@ https://xi.zulipchat.com/
 
 # 다른 사람이 만든 Druid 작품들
 
+- 7가지 소규모 프로젝트 Druid감을 잡아보자 https://eugenkiss.github.io/7guis/tasks/
+
 https://github.com/linebender/druid/issues/1360
 
 # 내가 찾는거 힌트
